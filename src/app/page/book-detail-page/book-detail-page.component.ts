@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Book } from '../model/book';
+import { Book } from '../../model/book';
 import { ActivatedRoute } from '@angular/router';
-import { BooksService } from '../books.service';
+import { BooksService } from '../../books.service';
 import {MatCardModule} from '@angular/material/card';
 import { CommonModule } from '@angular/common';
 import {MatListModule} from '@angular/material/list';
-import { StarsComponent } from "../stars/stars.component";
+import { StarsComponent } from "../../components/stars/stars.component";
 import {MatChipsModule} from '@angular/material/chips';
 
 @Component({
